@@ -18,7 +18,7 @@ options(scipen=999)
 #model parameters below:
 # max.train.date<-as.Date("2020-04-06")
 max.train.date<-max(train$Date[!is.na(train$ConfirmedCases)])
-max.cutoff<-15
+max.cutoff<-8
 observation.min<-1
 eps<-.5
 
@@ -938,9 +938,9 @@ rmsle(y=c(train$Fatalities[bool], train$ConfirmedCases[bool],train$Recoveries[bo
 sum(!is.na(c(train$predFatalities.20[bool],train$estCases.20[bool], train$predRecoveries.20[bool])))
 
 
-# train[train$Country.Region=='Italy' & train$Province.State==""& train$Date>=max.train.date-5,c("predCases.agg","predCases", "estCases", "arimaCases", "lgbCases", "ConfirmedCases", "Tests","Date", "Percent.Positive", "Recoveries")]
+# train[train$Country.Region=='Afghanistan' & train$Province.State==""& train$Date>=max.train.date-5,c("predCases.agg","predCases", "estCases", "arimaCases", "lgbCases", "ConfirmedCases", "Tests","Date", "Percent.Positive", "Recoveries")]
 # 
-#train[train$Country.Region=='US' & train$Province.State==""& train$Date>=max.train.date-5,c("predFatalities.agg", "predFatalities", "estFatalities", "lgbFatalities", "Fatalities","Date","Percent.Positive", "quarantine", "ConfirmedCases", 'Tests')]
+#train[train$Country.Region=='Germany' & train$Province.State==""& train$Date>=max.train.date-5,c("predFatalities.agg", "predFatalities", "estFatalities", "lgbFatalities", "Fatalities","Date","Percent.Positive", "quarantine", "ConfirmedCases", 'Tests')]
 # train[train$Country.Region=='US'& train$Province.State==''& train$Date>=max.train.date-5,c("predFatalities.agg", "estFatalities", "Fatalities","Date","Percent.Positive", "quarantine", "ConfirmedCases", 'Tests')]
 
 # train[train$Country.Region=='Germany'& train$Date>=max.train.date-5,c("predRecoveries.agg", "estRecoveries", 'arimaRecoveries', "lgbRecoveries", "Recoveries","Date")]
@@ -949,7 +949,7 @@ sum(!is.na(c(train$predFatalities.20[bool],train$estCases.20[bool], train$predRe
 ###EXAMINE RESULTS--PLOTS###
 
 
-countries<-data.table(train)[,list(estimated.fatalities=sum(predFatalities.agg, na.rm=T)), 
+countries<-data.table(train)[!is.na(train$predFatalities.agg),list(estimated.fatalities=sum(predFatalities.agg, na.rm=T)), 
                              by=c("Date", "Country.Region", "Province.State")]
 countries$Country.Region<-ifelse(countries$Province.State=="", countries$Country.Region,
                                  paste(countries$Country.Region,countries$Province.State ,sep="-"))
@@ -969,7 +969,7 @@ ggplot(countries[countries$Country.Region%in% levels(countries$Country.Region)[1
 
 
 
-countries<-data.table(train)[,list(estimated.cases=sum(predCases.agg, na.rm=T)), 
+countries<-data.table(train)[!is.na(train$predCases.agg),list(estimated.cases=sum(predCases.agg, na.rm=T)), 
                              by=c("Date", "Country.Region", "Province.State")]
 countries$Country.Region<-ifelse(countries$Province.State=="", countries$Country.Region,
                                  paste(countries$Country.Region,countries$Province.State ,sep="-"))
@@ -988,7 +988,7 @@ ggplot(countries[countries$Country.Region%in% levels(countries$Country.Region)[1
   ggtitle("Top 15 Projected Regions- Cases ")
 
 
-countries<-data.table(train)[,list(estimated.recoveries=sum(predRecoveries.agg, na.rm=T)), 
+countries<-data.table(train)[!is.na(train$predRecoveries.agg),list(estimated.recoveries=sum(predRecoveries.agg, na.rm=T)), 
                              by=c("Date", "Country.Region", "Province.State")]
 countries$Country.Region<-ifelse(countries$Province.State=="", countries$Country.Region,
                                  paste(countries$Country.Region,countries$Province.State ,sep="-"))
@@ -1006,7 +1006,7 @@ ggplot(countries[countries$Country.Region%in% levels(countries$Country.Region)[1
   scale_colour_discrete() +  #guide = 'none'
   ggtitle("Top 15 Projected Regions- Recoveries ")
 
-countries<-data.table(train)[train$Population>=10000,list(estimated.fatalities.percent=sum(predFatalities.agg, na.rm=T)/sum(Population)), 
+countries<-data.table(train)[train$Population>=10000 & !is.na(train$predFatalities.agg),list(estimated.fatalities.percent=sum(predFatalities.agg, na.rm=T)/sum(Population)), 
                              by=c("Date", "Country.Region", "Province.State")]
 countries$Country.Region<-ifelse(countries$Province.State=="", countries$Country.Region,
                                  paste(countries$Country.Region,countries$Province.State ,sep="-"))
@@ -1024,7 +1024,7 @@ ggplot(countries[countries$Country.Region%in% levels(countries$Country.Region)[1
   ggtitle("Top 15 Projected Countries/States- Fatalities as % of Population", 
           subtitle = c("<10K population omitted"))
 
-countries<-data.table(train)[train$Population>10000,list(estimated.cases.percent=sum(predCases.agg, na.rm=T)/sum(Population)), 
+countries<-data.table(train)[train$Population>10000 & !is.na(train$predCases.agg),list(estimated.cases.percent=sum(predCases.agg, na.rm=T)/sum(Population)), 
                              by=c("Date", "Country.Region", "Province.State")]
 countries$Country.Region<-ifelse(countries$Province.State=="", countries$Country.Region,
                                  paste(countries$Country.Region,countries$Province.State ,sep="-"))
@@ -1043,7 +1043,7 @@ ggplot(countries[countries$Country.Region%in% levels(countries$Country.Region)[1
   ggtitle("Top 15 Projected Countries/States- Cases as % of Population", 
           subtitle = c("<10K population omitted"))
 
-countries<-data.table(train)[train$Population>10000,list(estimated.recoveries.percent=sum(predRecoveries.agg, na.rm=T)/sum(Population)), 
+countries<-data.table(train)[train$Population>10000 & !is.na(train$predRecoveries.agg),list(estimated.recoveries.percent=sum(predRecoveries.agg, na.rm=T)/sum(Population)), 
                              by=c("Date", "Country.Region", "Province.State")]
 countries$Country.Region<-ifelse(countries$Province.State=="", countries$Country.Region,
                                  paste(countries$Country.Region,countries$Province.State ,sep="-"))
@@ -1061,8 +1061,6 @@ ggplot(countries[countries$Country.Region%in% levels(countries$Country.Region)[1
   scale_colour_discrete() +  #guide = 'none'
   ggtitle("Top 15 Projected Countries/States- Recoveries as % of Population", 
           subtitle = c("<10K population omitted"))
-
-
 
 
 ###WRITE/FORMAT SUBMISSION FILES####
