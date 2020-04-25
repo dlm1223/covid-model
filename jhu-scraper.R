@@ -1,3 +1,5 @@
+#run this to get updated data. then run 1-organize-data.R, then 2-model-fitting.
+
 library(data.table)
 library(plyr)
 library(dplyr)

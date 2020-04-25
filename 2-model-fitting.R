@@ -11,10 +11,114 @@ library(lightgbm)
 options(stringsAsFactors=FALSE)
 options(scipen=999)
 
-#run 1-organize-data.R first
+
+# must run 1-organize-data.R first (optional: run jhu scraper before that to get latest JHU data.)
+
+
+#model parameters below:
+# max.train.date<-as.Date("2020-04-06")
+max.train.date<-max(train$Date[!is.na(train$ConfirmedCases)])
+max.cutoff<-15
+observation.min<-1
+eps<-.5
+
+
+###CASES: GEOMETRIC SERIES MODEL######
+
+#Model future Cases as geometric series using previous cases number only. 
+#Each country get's it's own rate of increase "DELTA" based on last 3 days of continent, and country-level rates of increase
+#this rate decreases for each future day using "DECAY" rate
+#dparameters for weighting country vs continent, and decay rate decided using CV to optimize predictive accuracy
+#based on Kaggle notebook except for deciding weights/parameters using CV instead of manually ://www.kaggle.com/gaborfodor/covid-19-a-few-charts-and-a-simple-baseline/notebook
+
+getPred<-function(train.end){
+  #train.end<-max(train$Date[!is.na(train$ConfirmedCases)])
+  
+  
+  DECAY =  0.9; day.param<-3;count.param<-4
+  test.end<-max(train$Date)
+  
+  #calculate state-level "DELTA"
+  
+  deltas<-train[train$Date>=as.Date("2020-03-12") & train$Date<=train.end  & !is.na(train$LogConfirmedDelta),]
+  confirmed_deltas<-data.table(deltas)[, `:=`(
+    avg.continent.3=mean(LogConfirmedDelta[LogConfirmed>2& Date>=train.end-day.param & !Country.Region=='China']),
+    avg.continent=mean(LogConfirmedDelta[LogConfirmed>2 & !Country.Region=='China'], na.rm=T)
+  ), by=c("Continent")]
+  confirmed_deltas<-data.table(confirmed_deltas)[, `:=`(
+    avg.global.3=mean(LogConfirmedDelta[LogConfirmed>2& Date>=train.end-day.param & !Country.Region=='China']),
+    avg.global=mean(LogConfirmedDelta[LogConfirmed>2 & !Country.Region=='China'], na.rm=T)
+  ), by=c("")]
+  confirmed_deltas<-data.table(confirmed_deltas)[, list(avg=mean(LogConfirmedDelta[LogConfirmed>2], na.rm=T), 
+                                                        avg.3=mean(LogConfirmedDelta[LogConfirmed>2 & Date>=train.end-day.param], na.rm=T), 
+                                                        cnt=sum(!is.na(LogConfirmedDelta[LogConfirmed>2])), 
+                                                        avg.global.3=avg.global.3[1],
+                                                        avg.continent.3=avg.continent.3[1],
+                                                        avg.global=avg.global[1],
+                                                        avg.continent=avg.continent[1]
+  ), by=c("Country.Region", "Province.State")]
+  confirmed_deltas$avg[is.na(confirmed_deltas$avg)]<-confirmed_deltas$avg.continent[is.na(confirmed_deltas$avg)]
+  confirmed_deltas$avg.3[is.na(confirmed_deltas$avg.3)]<-confirmed_deltas$avg.continent.3[is.na(confirmed_deltas$avg.3)]
+  confirmed_deltas[order(avg.3, decreasing = T),]
+  
+  #delta is a weighted sum. decide weight from CV
+  confirmed_deltas$DELTA = (confirmed_deltas$avg.global.3*0+3*confirmed_deltas$avg.continent.3+
+                              (confirmed_deltas$avg.3*confirmed_deltas$cnt/count.param))/(3+confirmed_deltas$cnt/count.param)
+  confirmed_deltas[order(confirmed_deltas$DELTA),]
+  summary(confirmed_deltas)
+  #hist(confirmed_deltas$DELTA)
+  
+  #calculate estimated cases
+  
+  daily_log_confirmed<-unique(train[, c("Province.State", "Country.Region", "Date", 'LogConfirmed')])
+  daily_log_confirmed$Prediction<-daily_log_confirmed$Date>train.end
+  
+  for(i in 1:nrow(confirmed_deltas)){
+    confirmed_delta<-confirmed_deltas$DELTA[i]
+    
+    bool<-daily_log_confirmed$Country.Region==confirmed_deltas$Country.Region[i]&
+      daily_log_confirmed$Province.State==confirmed_deltas$Province.State[i]
+    
+    #geometric series...x2=x1+delta*decay^1. x3=x1+delta*decay^1+delta*deacay^2. sum of 1st n elements=(1-r^n)/(1-r)
+    last.day<-daily_log_confirmed$LogConfirmed[daily_log_confirmed$Date==train.end & bool]
+    daily_log_confirmed$n<-as.numeric(daily_log_confirmed$Date-train.end+1)
+    daily_log_confirmed$LogConfirmed[daily_log_confirmed$Date>train.end& bool]<-last.day-confirmed_delta+
+      confirmed_delta*(1-DECAY^daily_log_confirmed$n[daily_log_confirmed$Date>train.end& bool])/(1-DECAY)
+    
+  }
+  daily_log_confirmed$estCases <- exp(daily_log_confirmed$LogConfirmed)-1
+  
+  # daily_log_confirmed<-merge(daily_log_confirmed, 
+  #                            train[, c("Province.State", 'Country.Region', "Date" ,"ConfirmedCases")],
+  #                            by=c("Province.State", 'Country.Region', "Date"), all.x = T)
+  daily_log_confirmed<-merge(daily_log_confirmed, 
+                             confirmed_deltas[, c("Country.Region", "Province.State", "DELTA"), with=F],
+                             by=c("Country.Region", "Province.State"), all.x = T)
+  daily_log_confirmed$train.end<-train.end
+  daily_log_confirmed[daily_log_confirmed$Prediction & daily_log_confirmed$n<=41, ]
+}
+preds<-lapply(seq(as.Date("2020-03-15"),max(train$Date[!is.na(train$ConfirmedCases)]), 1), getPred )
+preds<-rbindlist(preds)%>% data.frame()
+preds$n<-preds$n-1 #
+
+preds[, paste0("estCases.", 1:40)]<-NA
+for(i in 1:40){
+  preds[which(preds$n==i), paste0("estCases.",i)]<-preds$estCases[which(preds$n==i)]
+}
+preds[1,]
+preds<-data.table(preds)[, lapply(.SD, mean, na.rm=T), 
+                         by=c("Country.Region", 'Province.State', "Date"), .SDcols=paste0("estCases.", 1:40)]
+preds[1,]
+train<-data.frame(train)
+train<-merge(train[, !grepl("estCases[.]", colnames(train))], preds, by.x=c("Country.Region", "Province.State", "Date"), 
+             by.y=c("Country.Region", 'Province.State', "Date"), all.x=T)
+
+
 
 
 ######FATALITIES: GEOMETRIC SERIES MODEL######
+
+
 getPred<-function(train.end){
   #train.end<-max(train$Date[!is.na(train$ConfirmedCases)])
   
@@ -178,9 +282,6 @@ train<-merge(train[, !grepl("estRecoveries[.]", colnames(train))], preds,
 
 
 
-max.train.date<-as.Date("2020-04-06")
-#max.train.date<-max(train$Date[!is.na(train$ConfirmedCases)])
-max.cutoff<-20
 
 
 
@@ -236,8 +337,6 @@ for(max.train.date in max.train.date){
 #load("train.Rda")
 ####LIGHTGBM MODEL########
 
-observation.min<-1
-eps<-.5
 
 
 for(cutoff in 1:max.cutoff){
@@ -442,8 +541,6 @@ for(cutoff in 1:max.cutoff){
 #INDIVIDUAL LINEAR MODELS FOR PROJECTING 1, 2, 3, 4, etc DAYS IN THE FUTURE
 #based on lagged variables like lagged cases, fatalities variables and demogaphic variables like population, air transportation
 
-observation.min<-1
-eps<-.5
 
 ###LINEAR MODELS#####
 
