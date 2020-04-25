@@ -1,0 +1,1314 @@
+Country.Region,Province.State,Tests,Date
+Argentina,,2847,3/27/20
+Armenia,,1580,3/25/20
+Australia,,245623,3/31/20
+Austria,,46441,3/29/20
+Azerbaijan,,30000,3/30/20
+Bahrain,,30506,3/27/20
+Bangladesh,,1076,3/29/20
+Belarus,,30000,3/30/20
+Belgium,,18360,3/18/20
+Bolivia,,591,3/19/20
+Bosnia and Herzegovina,,2603,3/30/20
+Brazil,,45708,3/18/20
+Canada,,225705,3/30/20
+Canada,Alberta,46057,3/30/20
+Canada,British Columbia,42028,3/30/20
+Canada,Manitoba,8550,3/30/20
+Canada,New Brunswick,3234,3/30/20
+Canada,Newfoundland and Labrador,2333,3/30/20
+Canada,Northwest Territories,833,3/30/20
+Canada,Nova Scotia,5172,3/30/20
+Canada,Ontario,48461,3/30/20
+Canada,Prince Edward Island,608,3/30/20
+Canada,Quebec,59715,3/30/20
+Canada,Saskatchewan,9311,3/30/20
+Canada,Yukon,598,3/30/20
+Chile,,32096,3/27/20
+China,Guangdong,320000,2/20/20
+Colombia,,12216,3/29/20
+Costa Rica,,3046,3/27/20
+Croatia,,6404,3/30/20
+Czechia,,48811,3/30/20
+Denmark,,28230,3/31/20
+Ecuador,,6615,3/29/20
+Estonia,,12401,3/31/20
+Finland,,18000,3/28/20
+France,,101046,3/24/20
+Germany,,483295,3/22/20
+Greece,,15961,3/30/20
+Grenada,,18,3/19/20
+China,Hong Kong,90000,3/30/20
+Hungary,,13301,3/30/20
+Iceland,,16484,3/30/20
+India,,42788,3/31/20
+Indonesia,,6534,3/30/20
+Iran,,80000,3/22/20
+Ireland,,17992,3/24/20
+Israel,,66461,3/30/20
+Italy,,477359,3/30/20
+Italy,Emilia-Romagna,47798,3/27/20
+Italy,Liguria,7804,3/27/20
+Italy,Lombardy,95860,3/27/20
+Italy,Marche,9060,3/27/20
+Italy,Piedmont,19705,3/27/20
+Italy,Tuscany,23746,3/27/20
+Italy,Veneto,99941,3/30/20
+Jamaica,,250,3/27/20
+Japan,,32497,3/31/20
+Japan,Tokyo,2269,3/27/20
+Kazakhstan,,5093,3/13/20
+Kyrgyzstan,,8186,3/31/20
+Latvia,,14313,3/30/20
+Lithuania,,11280,3/31/20
+Malaysia,,24168,3/27/20
+Malta,,4462,3/27/20
+Mexico,,8552,3/28/20
+Montenegro,,834,3/30/20
+Nepal,,993,3/30/20
+Netherlands,,46810,3/26/20
+New Zealand,,21384,3/31/20
+North Macedonia,,3126,3/29/20
+Norway,,85136,3/29/20
+Pakistan,,14748,3/30/20
+West Bank and Gaza,,2519,3/16/20
+Panama,,4856,3/27/20
+Peru,,12669,3/27/20
+Philippines,,3938,3/31/20
+Poland,,51419,3/31/20
+Portugal,,38042,3/29/20
+Romania,,24654,3/31/20
+Russia,,536669,3/30/20
+Serbia,,3084,3/30/20
+Singapore,,39000,3/25/20
+Slovakia,,7532,3/29/20
+Slovenia,,20753,3/28/20
+South Africa,,35593,3/29/20
+"Korea, South",,410564,3/31/20
+Spain,,355000,3/21/20
+Sweden,,24500,3/25/20
+Switzerland,,111000,3/29/20
+Taiwan,,31800,3/31/20
+Thailand,,17829,3/30/20
+Trinidad and Tobago,,453,3/27/20
+Turkey,,76981,3/30/20
+Ukraine,,2264,3/30/20
+United Arab Emirates,,220000,3/29/20
+United Kingdom,,127737,3/29/20
+Uruguay,,1538,3/24/20
+Vietnam,,35808,3/31/20
+Albania,,2247,4/4/20
+Argentina,,7385,4/3/20
+Armenia,,3994,4/3/20
+Australia,,286786,4/4/20
+Australia,Australian Capital Territory,5328,4/4/20
+Australia,New South Wales,117633,4/4/20
+Australia,Northern Territory,2646,4/4/20
+Australia,Queensland,56132,4/4/20
+Australia,South Australia,32037,4/4/20
+Australia,Tasmania,1800,4/4/20
+Australia,Victoria,54000,4/4/20
+Australia,Western Australia,17251,4/4/20
+Austria,,104134,4/4/20
+Azerbaijan,,30000,4/3/20
+Bahrain,,37996,4/3/20
+Bangladesh,,2086,4/3/20
+Barbados,,382,4/1/20
+Belarus,,32000,4/4/20
+Belgium,,18360,3/18/20
+Bolivia,,591,3/19/20
+Bosnia and Herzegovina,,5349,4/4/20
+Brazil,,54824,4/2/20
+Canada,,317972,4/4/20
+Canada,Alberta,64108,4/4/20
+Canada,British Columbia,48508,4/4/20
+Canada,Manitoba,12514,4/3/20
+Canada,New Brunswick,4520,4/2/20
+Canada,Newfoundland and Labrador,2333,3/30/20
+Canada,Northwest Territories,833,3/30/20
+Canada,Nova Scotia,5172,3/30/20
+Canada,Ontario,66753,4/2/20
+Canada,Prince Edward Island,608,3/30/20
+Canada,Quebec,90227,4/4/20
+Canada,Saskatchewan,12112,4/3/20
+Canada,Yukon,598,3/30/20
+Chile,,44130,4/3/20
+China,Guangdong,320000,2/20/20
+Colombia,,23706,4/4/20
+Costa Rica,,3845,3/31/20
+Croatia,,8352,4/2/20
+Czechia,,74170,4/4/20
+Denmark,,45270,4/4/20
+Ecuador,,10317,4/3/20
+Egypt,,25000,3/25/20
+Estonia,,19091,4/4/20
+Finland,,29000,4/4/20
+France,,224254,4/2/20
+Germany,,918460,3/29/20
+Greece,,15961,3/30/20
+Grenada,,18,3/19/20
+China,Hong Kong,90000,3/30/20
+Hungary,,19424,4/4/20
+Iceland,,23640,4/4/20
+India,,79950,4/4/20
+Indonesia,,7896,4/4/20
+Iran,,80000,3/22/20
+Ireland,,30213,3/30/20
+Israel,,90394,4/2/20
+Italy,,657224,4/4/20
+Italy,Emilia-Romagna,67075,4/4/20
+Italy,Liguria,14087,4/4/20
+Italy,Lombardy,141877,4/4/20
+Italy,Marche,14472,4/4/20
+Italy,Piedmont,37181,4/4/20
+Italy,Tuscany,47886,4/4/20
+Italy,Veneto,133289,4/4/20
+Jamaica,,442,4/1/20
+Japan,,42882,4/4/20
+Japan,Tokyo,3806,4/3/20
+Kazakhstan,,5093,3/13/20
+Kosovo,,1871,4/4/20
+Kyrgyzstan,,8186,3/31/20
+Latvia,,19380,4/4/20
+Lithuania,,21376,4/4/20
+Malaysia,,49570,4/4/20
+Malta,,4462,3/27/20
+Mexico,,9481,3/28/20
+Montenegro,,1456,4/4/20
+Nepal,,1521,4/4/20
+Netherlands,,46810,3/26/20
+New Zealand,,36209,4/5/20
+North Macedonia,,4506,4/3/20
+Norway,,101986,4/3/20
+Pakistan,,32930,4/4/20
+West Bank and Gaza,,2519,3/16/20
+Panama,,7333,4/1/20
+Peru,,12669,3/27/20
+Poland,,72901,4/4/20
+Portugal,,52086,3/31/20
+Romania,,36092,4/4/20
+Russia,,639606,4/4/20
+Scotland,,20798,4/4/20
+Serbia,,5008,4/2/20
+Singapore,,39000,3/25/20
+Slovakia,,13631,4/4/20
+Slovenia,,27109,4/3/20
+South Africa,,50361,4/3/20
+"Korea, South",,461233,4/5/20
+Spain,,355000,3/21/20
+Sweden,,36900,3/31/20
+Switzerland,,153440,4/4/20
+Taiwan,,36304,4/5/20
+Thailand,,23669,4/3/20
+Trinidad and Tobago,,595,4/1/20
+Turkey,,161380,4/4/20
+Ukraine,,5040,4/4/20
+United Arab Emirates,,220000,4/3/20
+United Kingdom,,183190,4/4/20
+Uruguay,,1538,3/24/20
+Venezuela,,1779,3/31/20
+Vietnam,,75458,4/4/20
+Albania,,"2,989",4/8/20
+Argentina,,"10,793",4/7/20
+Armenia,,"4,666",4/7/20
+Australia,,"319,784",4/8/20
+Australia,Australian Capital Territory,"5,778",4/8/20
+Australia,New South Wales,"129,091",4/8/20
+Australia,Northern Territory,"3,062",4/8/20
+Australia,Queensland,"63,552",4/8/20
+Australia,South Australia,"34,593",4/8/20
+Australia,Tasmania,"3,612",4/8/20
+Australia,Victoria,"60,000",4/8/20
+Australia,Western Australia,"20,096",4/8/20
+Austria,,"120,755",4/8/20
+Azerbaijan,,"40,000",4/1/20
+Bahrain,,"37,996",4/7/20
+Bangladesh,,"5,164",4/8/20
+Barbados,,382,4/1/20
+Belarus,,"46,000",4/8/20
+Belgium,,"18,360",3/18/20
+Bolivia,,591,3/19/20
+Bosnia and Herzegovina,,"6,894",4/7/20
+Brazil,,"54,824",4/2/20
+Bulgaria,,"15,899",4/5/20
+Canada,,"359,269",4/8/20
+Canada,Alberta,"67,117",4/7/20
+Canada,British Columbia,"51,423",4/7/20
+Canada,Manitoba,"14,280",4/7/20
+Canada,New Brunswick,"5,613",4/6/20
+Canada,Newfoundland and Labrador,"3,958",4/7/20
+Canada,Northwest Territories,"1,262",4/6/20
+Canada,Nova Scotia,"10,511",4/6/20
+Canada,Ontario,"84,601",4/7/20
+Canada,Prince Edward Island,"1,018",4/7/20
+Canada,Quebec,"104,526",4/7/20
+Canada,Saskatchewan,"14,178",4/6/20
+Canada,Yukon,775,4/6/20
+Chile,,"54,864",4/6/20
+China,,,
+China,Guangdong,"320,000",2/20/20
+China,Hong Kong,"96,709",3/31/20
+Colombia,,"27,685",4/6/20
+Costa Rica,,"3,845",3/31/20
+Croatia,,"12,322",4/7/20
+Czechia,,"98,681",4/7/20
+Denmark,,"64,002",4/8/20
+Ecuador,,"13,039",4/6/20
+Egypt,,"25,000",3/25/20
+Estonia,,"24,813",4/8/20
+Finland,,"34,900",4/7/20
+France,,"224,254",4/2/20
+Germany,,"1,317,887",4/5/20
+Greece,,"15,961",4/7/20
+Grenada,,37,4/1/20
+Hungary,,"25,748",4/8/20
+Iceland,,"28,992",4/7/20
+India,,"127,919",4/8/20
+Indonesia,,"13,186",4/7/20
+Iran,,"211,136",4/7/20
+Ireland,,"42,484",4/6/20
+Israel,,"117,339",4/6/20
+Italy,,"807,125",4/8/20
+Italy,Emilia-Romagna,"78,367",4/8/20
+Italy,Liguria,"17,521",4/8/20
+Italy,Lombardy,"167,557",4/8/20
+Italy,Marche,"17,532",4/8/20
+Italy,Piedmont,"48,495",4/8/20
+Italy,Tuscany,"60,985",4/8/20
+Italy,Veneto,"163,247",4/8/20
+Jamaica,,442,4/1/20
+Japan,,"61,498",4/8/20
+Japan,Tokyo,"4,484",4/6/20
+Kazakhstan,,"29,232",4/7/20
+Kosovo,,2352,4/7/20
+Kyrgyzstan,,"8,186",3/31/20
+Latvia,,"24,036",4/8/20
+Lithuania,,"30,108",4/8/20
+Malaysia,,"55,566",4/6/20
+Malta,,"4,462",3/27/20
+Mexico,,"17,184",4/4/20
+Montenegro,,"2,329",4/8/20
+Nepal,,"2,122",4/7/20
+Netherlands,,"75,415",4/6/20
+New Zealand,,"46,875",4/8/20
+North Macedonia,,"5,493",4/5/20
+Norway,,"113,896",4/6/20
+Pakistan,,"42,159",4/7/20
+West Bank and Gaza,,"5,562",3/27/20
+Panama,,"7,333",4/1/20
+Peru,,"12,669",3/27/20
+Philippines,,"24,500",4/7/20
+Poland,,"99,284",4/8/20
+Portugal,,"52,086",3/31/20
+Romania,,"43,578",4/7/20
+Russia,,"910,221",4/8/20
+Russia,Moscow Oblast,"46,760",4/8/20
+Russia,Serbia,"9,626",4/7/20
+Singapore,,"65,000",4/6/20
+Slovakia,,"16,191",4/5/20
+Slovenia,,"30,669",4/7/20
+South Africa,,"53,937",4/4/20
+"Korea, South",,"477,304",4/7/20
+Spain,,"355,000",3/21/20
+Sweden,,"54,700",4/7/20
+Switzerland,,"167,429",4/7/20
+Taiwan,,"40,702",4/8/20
+Thailand,,"23,669",4/3/20
+Trinidad and Tobago,,595,4/1/20
+Turkey,,"247,768",4/8/20
+Ukraine,,"7,205",4/8/20
+United Arab Emirates,,"593,095",4/8/20
+United Kingdom,,"213,181",4/7/20
+United Kingdom,Scotland,"26,226",4/8/20
+US,,"2,096,564",4/7/20
+US,California,"145,389",4/7/20
+US,Florida,"144,570",4/8/20
+US,Illinois,"68,732",4/7/20
+US,Louisiana,"81,406",4/8/20
+US,Michigan,"43,503",4/7/20
+US,New Jersey,"100,416",4/8/20
+US,New York,"365,153",4/8/20
+US,Texas,"96,258",4/8/20
+US,Washington,"87,918",4/4/20
+Uruguay,,"1,538",3/24/20
+Venezuela,,"1,779",3/31/20
+Vietnam,,"110,124",4/7/20
+Albania,,"3,385",4/10/20
+Argentina,,"14,850",4/9/20
+Armenia,,"5,823",4/9/20
+Australia,,"338,449",4/10/20
+Australia,Australian Capital Territory,"6,120",4/10/20
+Australia,New South Wales,"137,441",4/10/20
+Australia,Northern Territory,"3,243",4/10/20
+Australia,Queensland,"69,194",4/10/20
+Australia,South Australia,"35,716",4/10/20
+Australia,Tasmania,"3,591",4/10/20
+Australia,Victoria,"62,000",4/10/20
+Australia,Western Australia,"21,114",4/10/20
+Austria,,"134,743",4/10/20
+Azerbaijan,,"57,371",4/1/20
+Bahrain,,"55,096",4/9/20
+Bangladesh,,"7,359",4/10/20
+Barbados,,382,4/1/20
+Belarus,,"49,000",4/10/20
+Belgium,,"84,248",4/7/20
+Bolivia,,591,3/19/20
+Bosnia and Herzegovina,,"9,189",4/10/20
+Brazil,,"54,824",4/2/20
+Bulgaria,,"15,899",4/5/20
+Canada,,"384,185",4/9/20
+Canada,Alberta,"70,247",4/9/20
+Canada,British Columbia,"53,505",4/9/20
+Canada,Manitoba,"15,259",4/9/20
+Canada,New Brunswick,"6,549",4/8/20
+Canada,Newfoundland and Labrador,"4,149",4/8/20
+Canada,Northwest Territories,"1,299",4/8/20
+Canada,Nova Scotia,"11,688",4/8/20
+Canada,Ontario,"88,698",4/8/20
+Canada,Prince Edward Island,"1,470",4/8/20
+Canada,Quebec,"109,270",4/8/20
+Canada,Saskatchewan,"15,621",4/8/20
+Canada,Yukon,794,4/8/20
+Chile,,"54,864",4/6/20
+China,,,
+China,Guangdong,"320,000",2/20/20
+China,Hong Kong,"96,709",3/31/20
+Colombia,,"34,910",4/9/20
+Costa Rica,,"3,845",3/31/20
+Croatia,,"12,322",4/7/20
+Czechia,,"114,854",4/9/20
+Denmark,,"70,983",4/10/20
+Ecuador,,"21,568",4/10/20
+Egypt,,"25,000",3/25/20
+Estonia,,"27,883",4/10/20
+Finland,,"36,500",4/8/20
+France,,"224,254",4/2/20
+Germany,,"1,317,887",4/5/20
+Greece,,"28,584",4/7/20
+Grenada,,37,4/1/20
+Hungary,,"29,948",4/10/20
+Iceland,,"34,125",4/10/20
+India,,"144,910",4/8/20
+Indonesia,,"16,848",4/9/20
+Iran,,"211,136",4/7/20
+Ireland,,"42,484",4/6/20
+Israel,,"138,597",4/9/20
+Italy,,"906,864",4/10/20
+Italy,Emilia-Romagna,"85,844",4/10/20
+Italy,Liguria,"19,514",4/9/20
+Italy,Lombardy,"186,325",4/10/20
+Italy,Marche,"18,970",4/10/20
+Italy,Piedmont,"57,457",4/10/20
+Italy,Tuscany,"72,001",4/10/20
+Italy,Veneto,"180,700",4/10/20
+Jamaica,,442,4/1/20
+Japan,,"68,771",4/10/20
+Japan,Tokyo,"5,821",4/9/20
+Kazakhstan,,"30,358",4/10/20
+Kosovo,,2687,4/9/20
+Kyrgyzstan,,"8,186",3/31/20
+Latvia,,"25,458",4/9/20
+Lithuania,,"36,051",4/10/20
+Malaysia,,"63,367",4/9/20
+Malta,,"4,462",3/27/20
+Mexico,,"17,184",4/4/20
+Montenegro,,"2,545",4/10/20
+Nepal,,"2,366",4/8/20
+Netherlands,,"101,534",4/8/20
+New Zealand,,"55,685",4/10/20
+North Korea,,709,4/2/20
+North Macedonia,,"6,230",4/7/20
+Norway,,"121,034",4/9/20
+Pakistan,,"54,706",4/9/20
+West Bank and Gaza,,"5,562",3/27/20
+Panama,,"7,333",4/1/20
+Peru,,"12,669",3/27/20
+Philippines,,"24,500",4/7/20
+Poland,,"118,295",4/10/20
+Portugal,,"131,127",4/8/20
+Romania,,"55,430",4/10/20
+Russia,,"1,092,811",4/9/20
+Russia,Moscow Oblast,"55,203",4/9/20
+Serbia,,"9,626",4/7/20
+Singapore,,"65,000",4/6/20
+Slovakia,,"16,191",4/5/20
+Slovenia,,"30,669",4/7/20
+South Africa,,"53,937",4/4/20
+"Korea, South",,"477,304",4/7/20
+Spain,,"355,000",3/21/20
+Sweden,,"54,700",4/7/20
+Switzerland,,"167,429",4/7/20
+Taiwan,,"43,886",4/10/20
+Thailand,,"23,669",4/3/20
+Trinidad and Tobago,,595,4/1/20
+Turkey,,"276,338",4/9/20
+Ukraine,,"8,763",4/10/20
+United Arab Emirates,,"593,095",4/8/20
+United Kingdom,,"243,421",4/9/20
+United Kingdom,Scotland,"27,518",4/9/20
+US,,"2,378,143",4/9/20
+US,California,"177,600",4/9/20
+US,Florida,"156,852",4/10/20
+US,Illinois,"80,857",4/9/20
+US,Louisiana,"86,919",4/9/20
+US,Michigan,"69,425",4/9/20
+US,New Jersey,"107,192",4/9/20
+US,New York,"391,549",4/9/20
+US,Texas,"106,134",4/9/20
+US,Washington,"87,918",4/4/20
+Uruguay,,"1,538",3/24/20
+Venezuela,,"1,779",3/31/20
+Vietnam,,"118,807",4/10/20
+Albania,,"4,070",4/13/20
+Argentina,,"18,027",4/11/20
+Armenia,,"6,484",4/11/20
+Australia,,"362,249",4/13/20
+Australia,Australian Capital Territory,"6,294",4/13/20
+Australia,New South Wales,"144,380",4/13/20
+Australia,Northern Territory,"3,391",4/13/20
+Australia,Queensland,"73,170",4/13/20
+Australia,South Australia,"36,704",4/13/20
+Australia,Tasmania,"4,375",4/13/20
+Australia,Victoria,"70,000",4/13/20
+Australia,Western Australia,"23,935",4/13/20
+Austria,,"148,412",4/13/20
+Azerbaijan,,"57,371",4/1/20
+Bahrain,,"57,681",4/10/20
+Bangladesh,,"11,223",4/13/20
+Barbados,,382,4/1/20
+Belarus,,"68,000",4/13/20
+Belgium,,"112,613",4/13/20
+Bolivia,,2185,4/11/20
+Bosnia and Herzegovina,,"9,189",4/10/20
+Brazil,,"54,824",4/2/20
+Bulgaria,,"15,899",4/5/20
+Canada,,"428,920",4/13/20
+Canada,Alberta,"77,316",4/12/20
+Canada,British Columbia,"53,505",4/9/20
+Canada,Manitoba,"17,245",4/13/20
+Canada,New Brunswick,"7,963",4/12/20
+Canada,Newfoundland and Labrador,"4,907",4/13/20
+Canada,Northwest Territories,"1,453",4/13/20
+Canada,Nova Scotia,16054,4/13/20
+Canada,Ontario,"108,230",4/13/20
+Canada,Prince Edward Island,"1,841",4/13/20
+Canada,Quebec,"131,570",4/13/20
+Canada,Saskatchewan,"19,804",4/13/20
+Canada,Yukon,794,4/8/20
+Chile,,"82,271",4/12/20
+China,,,
+China,Guangdong,"320,000",2/20/20
+China,Hong Kong,"96,709",3/31/20
+Colombia,,"41,765",4/12/20
+Costa Rica,,"3,845",3/31/20
+Croatia,,"12,322",4/7/20
+Czechia,,"128,359",4/12/20
+Denmark,,"76,540",4/12/20
+Ecuador,,"23,635",4/12/20
+Egypt,,"25,000",3/25/20
+Estonia,,"30,349",4/12/20
+Finland,,"46,000",4/13/20
+France,,"333,807",4/7/20
+Greece,,"28,584",4/7/20
+Grenada,,37,4/1/20
+Hungary,,"33,532",4/13/20
+Iceland,,"35,488",4/13/20
+India,,"217,554",4/13/20
+Indonesia,,"27,391",4/13/20
+Iran,,"275,427",4/13/20
+Ireland,,"42,484",4/6/20
+Israel,,"168,075",4/13/20
+Italy,,"1,046,910",4/13/20
+Italy,Emilia-Romagna,"99,047",4/13/20
+Italy,Liguria,"23,129",4/13/20
+Italy,Lombardy,"211,092",4/13/20
+Italy,Marche,"28,379",4/13/20
+Italy,Piedmont,"69,170",4/13/20
+Italy,Tuscany,"80,889",4/13/20
+Italy,Veneto,"203,077",4/13/20
+Jamaica,,442,4/1/20
+Japan,,"78,702",4/13/20
+Japan,Tokyo,"6,743",4/12/20
+Kazakhstan,,"32,416",4/13/20
+Kosovo,,"3,410",4/13/20
+Kyrgyzstan,,"24,901",4/13/20
+Latvia,,"25,458",4/9/20
+Lithuania,,"41,503",4/13/20
+Malaysia,,"81,730",4/13/20
+Malta,,"16,016",4/11/20
+Mexico,,"36,594",4/12/20
+Montenegro,,"3,210",4/13/20
+Nepal,,"5,691",4/13/20
+Netherlands,,"101,534",4/8/20
+New Zealand,,"61,167",4/11/20
+Nigeria,,"5,000",4/13/20
+North Korea,,709,4/2/20
+North Macedonia,,"8,057",4/11/20
+Norway,,"124,279",4/10/20
+Pakistan,,"65,114",4/12/20
+West Bank and Gaza,,"16,992",4/11/20
+Panama,,"15,147",4/12/20
+Peru,,"87,116",4/13/20
+Philippines,,"38,640",4/11/20
+Poland,,"118,295",4/10/20
+Portugal,,"163,616",4/13/20
+Romania,,"67,204",4/13/20
+Russia,,"1,359,993",4/13/20
+Russia,Moscow Oblast,"65,411",4/12/20
+Russia,Serbia,"20,958",4/13/20
+Singapore,,"72,680",4/7/20
+Slovakia,,"23,672",4/9/20
+Slovenia,,"30,669",4/7/20
+South Africa,,"83,663",4/13/20
+"Korea, South",,"510,479",4/11/20
+Spain,,"355,000",3/21/20
+Sweden,,"54,700",4/7/20
+Switzerland,,"193,800",4/12/20
+Taiwan,,"47,215",4/13/20
+Thailand,,"23,669",4/3/20
+Trinidad and Tobago,,595,4/1/20
+Turkey,,"410,556",4/13/20
+Ukraine,,"32,496",4/13/20
+United Arab Emirates,,"593,095",4/8/20
+United Kingdom,,"290,720",4/13/20
+United Kingdom,Scotland,"31,813",4/13/20
+US,,"2,833,051",4/12/20
+US,California,"203,400",4/11/20
+US,Florida,"197,996",4/13/20
+US,Illinois,"100,735",4/12/20
+US,Louisiana,"108,091",4/13/20
+US,Michigan,"82,798",4/12/20
+US,New Jersey,"126,735",4/12/20
+US,New York,"478,357",4/13/20
+US,Texas,"133,226",4/13/20
+US,Washington,"88,044",4/9/20
+Uruguay,,"1,538",3/24/20
+Venezuela,,"1,779",3/31/20
+Vietnam,,"121,821",4/13/20
+Vietnam,,"135,938",4/15/20
+Venezuela,,"1,779",3/31/20
+Uruguay,,"1,538",3/24/20
+US,Washington,"122,854",4/14/20
+US,Texas,"151,810",4/15/20
+US,New York,"499,143",4/14/20
+US,New Jersey,"139,774",4/14/20
+US,Michigan,"85,906",4/13/20
+US,Louisiana,"121,928_",4/15/20
+US,Illinois,"110,616",4/14/20
+US,Florida,"212,588",4/15/20
+US,California,"215,408",4/14/20
+US,,"3,155,233",4/14/20
+United Kingdom,Scotland,"32,885",4/14/20
+United Kingdom,,"313,769",4/15/20
+United Arab Emirates,,"593,095",4/8/20
+Ukraine,,"39,084",4/15/20
+Turkey,,"443,626",4/14/20
+Trinidad and Tobago,,595,4/1/20
+Thailand,,"35,500",4/15/20
+Taiwan,,"49,748",4/15/20
+Switzerland,,"202,633",4/15/20
+"Korea, South",,"527,438",4/14/20
+South Africa,,"83,663",4/13/20
+Slovenia,,"35,946",4/13/20
+Slovakia,,"29,217",4/13/20
+Singapore,,"72,680",4/7/20
+Serbia,,"26,278",4/15/20
+Russia,Moscow Oblast,"73,814",4/14/20
+Russia,,"1,517,992",4/15/20
+Romania,,"74,827",4/15/20
+Portugal,,"163,616",4/13/20
+Poland,,"156,493",4/15/20
+Philippines,,"45,486",4/14/20
+Peru,,"102,216",4/14/20
+Panama,,"15,147",4/12/20
+West Bank and Gaza,,"16,992",4/11/20
+Pakistan,,"73,439",4/14/20
+Norway,,"124,279",4/10/20
+North Macedonia,,"8,057",4/11/20
+North Korea,,709,4/2/20
+Nigeria,,"5,000",4/13/20
+New Zealand,,"64,399",4/14/20
+Netherlands,,"128,652",4/13/20
+Nepal,,"6,299",4/14/20
+Montenegro,,"3,682",4/15/20
+Mexico,,"36,594",4/12/20
+Malta,,"16,016",4/11/20
+Malaysia,,"87,183",4/15/20
+Lithuania,,"44,677",4/15/20
+Latvia,,"25,458",4/9/20
+Kyrgyzstan,,"24,901",4/13/20
+Kosovo,,"3,547",4/14/20
+Kazakhstan,,"38,233",4/15/20
+Japan,Tokyo,"6,743",4/13/20
+Japan,,"94,236",4/15/20
+Jamaica,,442,4/1/20
+Italy,Veneto,"216,344",4/15/20
+Italy,Tuscany,"86,348",4/15/20
+Italy,Piedmont,"75,664",4/15/20
+Italy,Marche,"30,329",4/15/20
+Italy,Lombardy,"221,968",4/15/20
+Italy,Liguria,"25,793",4/13/20
+Italy,Emilia-Romagna,"106,149",4/15/20
+Italy,,"1,117,404",4/15/20
+Israel,,"183,925",4/14/20
+Ireland,,"90,646",4/6/20
+Iran,,"275,427",4/13/20
+Indonesia,,"33,001",4/15/20
+India,,"258,730",4/15/20
+Iceland,,"36,339",4/14/20
+Hungary,,"37,362",4/15/20
+Grenada,,37,4/1/20
+Greece,,"28,584",4/7/20
+Germany,,"1,728,357",4/15/20
+France,,"333,807",4/7/20
+Finland,,"46,000",4/13/20
+Estonia,,"33,967",4/15/20
+Egypt,,"25,000",3/25/20
+Ecuador,,"25,347",4/14/20
+Denmark,,"80,451",4/14/20
+Czechia,,"137,409",4/14/20
+Croatia,,"12,322",4/7/20
+Costa Rica,,"3,845",3/31/20
+Colombia,,"41,765",4/12/20
+China,Hong Kong,"116,273",4/7/20
+China,Guangdong,"320,000",2/20/20
+China,,,
+Chile,,"87,794",4/14/20
+Canada,Yukon,832,4/13/20
+Canada,Saskatchewan,"19,804",4/13/20
+Canada,Quebec,"143,174",4/15/20
+Canada,Prince Edward Island,"1,841",4/13/20
+Canada,Ontario,"119,092",4/15/20
+Canada,Nova Scotia,"16,054",4/13/20
+Canada,Northwest Territories,"1,453",4/13/20
+Canada,Newfoundland and Labrador,"4,907",4/13/20
+Canada,New Brunswick,"8,199",4/13/20
+Canada,Manitoba,"17,605",4/14/20
+Canada,British Columbia,"58,626",4/14/20
+Canada,Alberta,"82,649",4/14/20
+Canada,,"462,841",4/14/20
+Bulgaria,,"15,899",4/5/20
+Brazil,,"54,824",4/2/20
+Bosnia and Herzegovina,,"12,172",4/14/20
+Bolivia,,"2,185",4/11/20
+Belgium,,"112,613",4/13/20
+Belarus,,"68,000",4/13/20
+Barbados,,382,4/1/20
+Bangladesh,,"14,868",4/15/20
+Bahrain,,"57,681",4/10/20
+Azerbaijan,,"57,371",4/1/20
+Austria,,"156,801",4/15/20
+Australia,Western Australia,"24,613",4/15/20
+Australia,Victoria,"72,000",4/15/20
+Australia,Tasmania,"4,646",4/15/20
+Australia,South Australia,"37,545",4/15/20
+Australia,Queensland,"75,480",4/15/20
+Australia,Northern Territory,"3,489",4/15/20
+Australia,New South Wales,"147,114",4/15/20
+Australia,Australian Capital Territory,"6,490",4/15/20
+Australia,,"371,377",4/15/20
+Armenia,,"6,484",4/11/20
+Argentina,,"18,027",4/11/20
+Albania,,"4,558",4/15/20
+Albania,,"5,311",4/18/20
+Argentina,,"18,027",4/11/20
+Armenia,,"10,793",4/17/20
+Australia,,"420,996",4/19/20
+Austria,,"179,243",4/19/20
+Azerbaijan,,"57,371",4/1/20
+Bahrain,,"82,568",4/18/20
+Bangladesh,,"23,941",4/19/20
+Barbados,,965,4/17/20
+Belarus,,"86,813",4/17/20
+Belgium,,"145,997",4/18/20
+Bolivia,,"2,185",4/11/20
+Bosnia and Herzegovina,,"15,486",4/17/20
+Brazil,,"476,272",4/16/20
+Bulgaria,,"26,417",4/18/20
+Canada,,"534,723",4/18/20
+Chile,,"108,891",4/18/20
+Colombia,,"41,765",4/12/20
+Costa Rica,,"3,845",3/31/20
+Croatia,,"12,322",4/7/20
+Czechia,,"162,533",4/17/20
+Denmark,,"98,461",4/18/20
+Ecuador,,"30,922",4/18/20
+Egypt,,"55,000",4/17/20
+Estonia,,"37,594",4/18/20
+Finland,,"55,639",4/18/20
+France,,"365,589",4/12/20
+Germany,,"1,728,357",4/15/20
+Greece,,"28,584",4/7/20
+Grenada,,92,4/16/20
+Hungary,,"46,353",4/19/20
+Iceland,,"41,091",4/18/20
+India,,"372,123",4/18/20
+Indonesia,,"39,422",4/18/20
+Iran,,"330,137",4/18/20
+Ireland,,"90,646",4/13/20
+Israel,,"215,052",4/18/20
+Italy,,"1,305,833",4/18/20
+Jamaica,,"1,516",4/17/20
+Japan,,"111,325",4/18/20
+Kazakhstan,,"40,347",4/17/20
+Kosovo,,"4,366",4/18/20
+Kyrgyzstan,,"31,460",4/18/20
+Latvia,,"34,697",4/18/20
+Lithuania,,"64,035",4/19/20
+Luxembourg,,"33,252",4/18/20
+Malaysia,,"103,892",4/19/20
+Malta,,"24,042",4/19/20
+Mexico,,"36,594",4/12/20
+Montenegro,,"4,559",4/19/20
+Nepal,,"27,467",4/18/20
+Netherlands,,"148,508",4/17/20
+New Zealand,,"83,224",4/19/20
+Nigeria,,"7,153",4/18/20
+North Korea,,709,4/2/20
+North Macedonia,,"8,057",4/11/20
+Norway,,"139,668",4/18/20
+Pakistan,,"98,522",4/18/20
+West Bank and Gaza,,"16,992",4/11/20
+Panama,,"17,850",4/17/20
+Peru,,"135,895",4/18/20
+Philippines,,"59,928",4/18/20
+Poland,,"179,654",4/17/20
+Portugal,,"235,878",4/18/20
+Romania,,"93,611",4/19/20
+Russia,,"1,949,813",4/19/20
+Serbia,,"38,701",4/19/20
+Singapore,,"59,737",4/17/20
+Slovakia,,"44,276",4/18/20
+Slovenia,,"40,580",4/17/20
+South Africa,,"108,021",4/18/20
+"Korea, South",,"554,834",4/18/20
+Spain,,"930,230",4/13/20
+Sweden,,"74,600",4/15/20
+Switzerland,,"216,400",4/18/20
+Taiwan,,"53,005",4/19/20
+Thailand,,"35,500",4/15/20
+Trinidad and Tobago,,"1,298",4/17/20
+Turkey,,"598,933",4/18/20
+Ukraine,,"52,534",4/18/20
+United Arab Emirates,,"767,000",4/15/20
+United Kingdom,,"372,967",4/19/20
+US,,"3,700,388",4/18/20
+Uruguay,,"1,538",3/24/20
+Venezuela,,"1,779",3/31/20
+Australia,Australian Capital Territory,"6,996",4/19/20
+Australia,New South Wales,"165,137",4/19/20
+Australia,Northern Territory,"3,713",4/19/20
+Australia,Queensland,"84,735",4/19/20
+Australia,South Australia,"43,310",4/19/20
+Australia,Tasmania,"6,320",4/19/20
+Australia,Victoria,"82,000",4/19/20
+Australia,Western Australia,"28,888",4/19/20
+Canada,Alberta,"96,897",4/18/20
+Canada,British Columbia,"60,668",4/18/20
+Canada,Manitoba,"19,193",4/18/20
+Canada,New Brunswick,"10,347",4/18/20
+Canada,Newfoundland and Labrador,"5,871",4/18/20
+Canada,Northwest Territories,"1,530",4/18/20
+Canada,Nova Scotia,"20,961",4/18/20
+Canada,Ontario,"146,454",4/18/20
+Canada,Prince Edward Island,"2,198",4/18/20
+Canada,Quebec,"153,722",4/18/20
+Canada,Saskatchewan,"23,092",4/18/20
+Canada,Yukon,859,4/18/20
+China,Guangdong,"320,000",2/20/20
+China,Hong Kong,"131,786",4/14/20
+India,Delhi,"15,032",4/13/20
+India,Karnataka,"18,224",4/16/20
+India,Kerala,"18,774",4/18/20
+India,Odisha,"6,734",4/16/20
+India,Rajasthan,"47,904",4/19/20
+India,Tamil Nadu,"21,994",4/15/20
+Italy,Abruzzo,"25,436",4/17/20
+Italy,Aosta Valley,"4,366",4/17/20
+Italy,Apulia,"38,278",4/17/20
+Italy,Basilicata,"5,710",4/17/20
+Italy,Calabria,"21,657",4/17/20
+Italy,Campania,"43,697",4/17/20
+Italy,Emilia-Romagna,"116,826",4/17/20
+Italy,Friuli-Venezia Giulia,"40,030",4/17/20
+Italy,Lazio,"84,755",4/17/20
+Italy,Liguria,"28,181",4/17/20
+Italy,Lombardy,"243,513",4/17/20
+Italy,Marche,"37,997",4/17/20
+Italy,Molise,"3,082",4/17/20
+Italy,Piedmont,"86,714",4/17/20
+Italy,Sardinia,"13,304",4/17/20
+Italy,Sicilia,"45,172",4/17/20
+Italy,South Tyrol,"27,698",4/17/20
+Italy,Trentino,"21,921",4/17/20
+Italy,Tuscany,"96,231",4/17/20
+Italy,Umbria,"22,818",4/17/20
+Italy,Veneto,"236,722",4/17/20
+Japan,Tokyo,"6,743",4/13/20
+Russia,Moscow,"395,034",4/15/20
+Russia,Moscow Oblast,"97,909",4/18/20
+Russia,Saint Petersburg,"80,826",4/15/20
+United Kingdom,Scotland,"39,612",4/19/20
+US,California,"266,900",4/18/20
+US,Florida,"253,183",4/18/20
+US,Illinois,"137,404",4/18/20
+US,Louisiana,"137,999",4/18/20
+US,Massachusetts,"156,806",4/18/20
+US,Michigan,"107,791",4/18/20
+US,New Jersey,"162,536",4/18/20
+US,New York,"596,532",4/18/20
+US,Texas,"176,239",4/18/20
+US,Washington,"135,706",4/18/20
+Albania,,"5,775",4/20/20
+Argentina,,"18,027",4/11/20
+Armenia,,"12,680",4/19/20
+Australia,,"431,734",4/20/20
+Austria,,"182,949",4/20/20
+Azerbaijan,,"95,747",4/19/20
+Bahrain,,"82,568",4/18/20
+Bangladesh,,"26,604",4/20/20
+Barbados,,965,4/17/20
+Belarus,,"102,556",4/20/20
+Belgium,,"161,896",4/20/20
+Bolivia,,"3,900",4/18/20
+Bosnia and Herzegovina,,"15,486",4/17/20
+Brazil,,"476,272",4/16/20
+Bulgaria,,"26,417",4/18/20
+Canada,,"555,551",4/20/20
+Chile,,"108,891",4/18/20
+Colombia,,"62,746",4/19/20
+Costa Rica,,"10,417",4/19/20
+Croatia,,"24,186",4/19/20
+Czechia,,"172,123",4/19/20
+Denmark,,"103,366",4/20/20
+Ecuador,,"30,922",4/18/20
+Egypt,,"55,000",4/17/20
+Estonia,,"37,594",4/18/20
+Finland,,"55,639",4/18/20
+France,,"365,589",4/12/20
+Germany,,"1,728,357",4/15/20
+Greece,,"53,290",4/18/20
+Grenada,,92,4/16/20
+Hungary,,"48,057",4/20/20
+Iceland,,"43,143",4/20/20
+India,,"401,586",4/19/20
+Indonesia,,"39,422",4/18/20
+Iran,,"330,137",4/18/20
+Ireland,,"90,646",4/13/20
+Israel,,"251,539",4/20/20
+Italy,,"1,398,024",4/20/20
+Jamaica,,"1,516",4/17/20
+Japan,,"116,725",4/20/20
+Kazakhstan,,"102,859",4/20/20
+Kosovo,,"5,009",4/20/20
+Kyrgyzstan,,"31,460",4/18/20
+Latvia,,"36,668",4/20/20
+Lithuania,,"66,352",4/20/20
+Luxembourg,,"33,798",4/20/20
+Malaysia,,"108,216",4/20/20
+Malta,,"24,042",4/19/20
+Mexico,,"36,594",4/12/20
+Montenegro,,"4,655",4/20/20
+Nepal,,"29,536",4/19/20
+Netherlands,,"148,508",4/17/20
+New Zealand,,"89,508",4/21/20
+Nigeria,,"7,153",4/20/20
+North Korea,,709,4/2/20
+North Macedonia,,"11,870",4/19/20
+Norway,,"143,255",4/20/20
+Pakistan,,"98,522",4/18/20
+West Bank and Gaza,,"16,992",4/11/20
+Panama,,"17,850",4/17/20
+Peru,,"148,011",4/20/20
+Philippines,,"62,475",4/19/20
+Poland,,"214,236",4/20/20
+Portugal,,"235,878",4/18/20
+Romania,,"98,491",4/20/20
+Russia,,"2,053,319",4/19/20
+Serbia,,"41,812",4/20/20
+Singapore,,"59,737",4/19/20
+Slovakia,,"46,734",4/19/20
+Slovenia,,"40,580",4/17/20
+South Africa,,"108,021",4/18/20
+"Korea, South",,"563,035",4/20/20
+Spain,,"930,230",4/13/20
+Sweden,,"74,600",4/15/20
+Switzerland,,"221,263",4/19/20
+Taiwan,,"55,476",4/21/20
+Thailand,,"35,500",4/15/20
+Trinidad and Tobago,,"1,298",4/17/20
+Turkey,,"673,980",4/20/20
+Ukraine,,"52,534",4/18/20
+United Arab Emirates,,"839,000",4/20/20
+United Kingdom,,"386,044",4/20/20
+US,,"4,007,588",4/20/20
+Uruguay,,"12,478",4/18/20
+Venezuela,,"1,779",3/31/20
+Vietnam,,"163,377",4/21/20
+Australia,Australian Capital Territory,"7,063",4/20/20
+Australia,New South Wales,"168,626",4/20/20
+Australia,Northern Territory,"3,731",4/20/20
+Australia,Queensland,"85,870",4/20/20
+Australia,South Australia,"44,278",4/20/20
+Australia,Tasmania,"6,697",4/20/20
+Australia,Victoria,"86,000",4/20/20
+Australia,Western Australia,"29,469",4/20/20
+Canada,Alberta,"105,317",4/20/20
+Canada,British Columbia,"60,668",4/18/20
+Canada,Manitoba,"20,012",4/20/20
+Canada,New Brunswick,"10,347",4/18/20
+Canada,Newfoundland and Labrador,"5,871",4/18/20
+Canada,Northwest Territories,"1,530",4/18/20
+Canada,Nova Scotia,"20,961",4/18/20
+Canada,Ontario,"146,454",4/18/20
+Canada,Prince Edward Island,"2,198",4/18/20
+Canada,Quebec,"153,722",4/18/20
+Canada,Saskatchewan,"23,092",4/18/20
+Canada,Yukon,859,4/18/20
+China,Guangdong,"320,000",2/20/20
+China,Hong Kong,"131,786",4/14/20
+India,Delhi,"15,032",4/13/20
+India,Karnataka,"18,224",4/16/20
+India,Kerala,"19,351",4/19/20
+India,Odisha,"6,734",4/16/20
+India,Rajasthan,"51,614",4/19/20
+India,Tamil Nadu,"21,994",4/15/20
+Italy,Abruzzo,"27,791",4/19/20
+Italy,Aosta Valley,"4,677",4/19/20
+Italy,Apulia,"42,598",4/19/20
+Italy,Basilicata,"6,528",4/19/20
+Italy,Calabria,"23,760",4/19/20
+Italy,Campania,"48,187",4/19/20
+Italy,Emilia-Romagna,"124,916",4/19/20
+Italy,Friuli-Venezia Giulia,"44,622",4/19/20
+Italy,Lazio,"91,807",4/19/20
+Italy,Liguria,"31,551",4/19/20
+Italy,Lombardy,"264,155",4/19/20
+Italy,Marche,"41,474",4/19/20
+Italy,Molise,"3,584",4/19/20
+Italy,Piedmont,"96,569",4/19/20
+Italy,Sardinia,"14,859",4/19/20
+Italy,Sicilia,"49,772",4/19/20
+Italy,South Tyrol,"30,361",4/19/20
+Italy,Trentino,24388,4/19/20
+Italy,Tuscany,"103,975",4/19/20
+Italy,Umbria,"25,170",4/19/20
+Italy,Veneto,"255,797",4/19/20
+Japan,Tokyo,"7,726",4/19/20
+Russia,Moscow,"395,034",4/15/20
+Russia,Moscow Oblast,"99,201",4/19/20
+Russia,Saint Petersburg,"80,826",4/15/20
+United Kingdom,Scotland,"39,612",4/19/20
+US,California,"290,500",4/20/20
+US,Florida,"273,552",4/20/20
+US,Illinois,"148,358",4/20/20
+US,Louisiana,"141,504",4/19/20
+US,Massachusetts,"169,398",4/20/20
+US,Michigan,"118,265",4/20/20
+US,New Jersey,"178,057",4/20/20
+US,New York,"633,861",4/20/20
+US,Texas,"190,394",4/20/20
+US,Washington,"141,011",4/20/20
+Albania,,"6,269",4/22/20
+Argentina,,"36,611",4/20/20
+Armenia,,"12,680",4/19/20
+Australia,,"452,441",4/22/20
+Austria,,"201,794",4/22/20
+Azerbaijan,,"95,747",4/19/20
+Bahrain,,"82,568",4/18/20
+Bangladesh,,"32,630",4/22/20
+Barbados,,965,4/17/20
+Belarus,,"102,556",4/20/20
+Belgium,,"161,896",4/20/20
+Bolivia,,"3,900",4/18/20
+Bosnia and Herzegovina,,"19,802",4/22/20
+Brazil,,"476,272",4/16/20
+Bulgaria,,"26,417",4/18/20
+Canada,,"620,128",4/22/20
+Chile,,"108,891",4/18/20
+Colombia,,"62,746",4/19/20
+Costa Rica,,"10,417",4/19/20
+Croatia,,"24,186",4/19/20
+Czechia,,"186,918",4/21/20
+Denmark,,"115,885",4/22/20
+Ecuador,,"32,453",4/20/20
+Egypt,,"55,000",4/17/20
+Estonia,,"40,930",4/20/20
+Finland,,"61,447",4/21/20
+France,,"365,589",4/12/20
+Germany,,"2,072,669",4/21/20
+Greece,,"53,290",4/18/20
+Grenada,,92,4/16/20
+Hungary,,"52,702",4/22/20
+Iceland,,"44,468",4/22/20
+India,,"462,621",4/21/20
+Indonesia,,"39,422",4/18/20
+Iran,,"365,723",4/21/20
+Ireland,,"111,584",4/20/20
+Israel,,"258,983",4/21/20
+Italy,,"1,450,150",4/21/20
+Jamaica,,"1,516",4/17/20
+Japan,,"130,587",4/22/20
+Kazakhstan,,"102,859",4/20/20
+Kosovo,,"5,372",4/22/20
+Kyrgyzstan,,"31,460",4/18/20
+Latvia,,"36,668",4/20/20
+Lithuania,,"76,793",4/22/20
+Luxembourg,,"36,087",4/22/20
+Malaysia,,"110,109",4/21/20
+Malta,,"24,042",4/19/20
+Mexico,,"36,594",4/12/20
+Montenegro,,"5,195",4/22/20
+Nepal,,"40,434",4/22/20
+Netherlands,,"165,012",4/20/20
+New Zealand,,"94,797",4/22/20
+Nigeria,,"7,153",4/21/20
+North Korea,,709,4/2/20
+North Macedonia,,"11,870",4/19/20
+Norway,,"143,255",4/20/20
+Pakistan,,"111,886",4/20/20
+West Bank and Gaza,,"16,992",4/11/20
+Panama,,"17,850",4/17/20
+Peru,,"170,400",4/22/20
+Philippines,,"68,532",4/21/20
+Poland,,"224,355",4/21/20
+Portugal,,"235,878",4/18/20
+Romania,,"98,491",4/20/20
+Russia,,"2,252,539",4/22/20
+Serbia,,"41,812",4/20/20
+Singapore,,"59,737",4/19/20
+Slovakia,,"53,893",4/21/20
+Slovenia,,"42,976",4/20/20
+South Africa,,"108,021",4/18/20
+"Korea, South",,"563,035",4/20/20
+Spain,,"930,230",4/13/20
+Sweden,,"94,500",4/21/20
+Switzerland,,"230,946",4/22/20
+Taiwan,,"58,003",4/23/20
+Thailand,,"35,500",4/15/20
+Trinidad and Tobago,,"1,298",4/17/20
+Turkey,,"750,944",4/22/20
+Ukraine,,"67,520",4/22/20
+United Arab Emirates,,"839,000",4/20/20
+United Kingdom,,"411,192",4/22/20
+US,,"4,470,750",4/22/20
+Uruguay,,"12,478",4/18/20
+Venezuela,,"1,779",3/31/20
+Vietnam,,"180,067",4/23/20
+Australia,Australian Capital Territory,"7,256",4/22/20
+Australia,New South Wales,"175,419",4/22/20
+Australia,Northern Territory,"3,972",4/22/20
+Australia,Queensland,"90,168",4/22/20
+Australia,South Australia,"47,238",4/22/20
+Australia,Tasmania,"7,248",4/22/20
+Australia,Victoria,"90,000",4/22/20
+Australia,Western Australia,"31,140",4/22/20
+Canada,Alberta,"113,499",4/22/20
+Canada,British Columbia,"66,977",4/22/20
+Canada,Manitoba,"21,601",4/22/20
+Canada,New Brunswick,"11,281",4/22/20
+Canada,Newfoundland and Labrador,"6,662",4/22/20
+Canada,Northwest Territories,"1,597",4/22/20
+Canada,Nova Scotia,"23,765",4/22/20
+Canada,Nunavut,250,4/22/20
+Canada,Ontario,"184,531",4/22/20
+Canada,Prince Edward Island,"2,397",4/22/20
+Canada,Quebec,"176,048",4/22/20
+Canada,Saskatchewan,"25,321",4/22/20
+Canada,Yukon,862,4/22/20
+China,Guangdong,"320,000",2/20/20
+China,Hong Kong,"131,786",4/14/20
+India,Delhi,"24,387",4/19/20
+India,Karnataka,"23,460",4/20/20
+India,Kerala,"20,252",4/21/20
+India,Odisha,"11,748",4/21/20
+India,Rajasthan,"61,492",4/21/20
+India,Tamil Nadu,"53,045",4/21/20
+Italy,Abruzzo,"29,906",4/21/20
+Italy,Aosta Valley,"4,911",4/21/20
+Italy,Apulia,"45,984",4/21/20
+Italy,Basilicata,"7,470",4/21/20
+Italy,Calabria,"25,440",4/21/20
+Italy,Campania,"53,548",4/21/20
+Italy,Emilia-Romagna,"134,878",4/21/20
+Italy,Friuli-Venezia Giulia,"48,500",4/21/20
+Italy,Lazio,"100,031",4/21/20
+Italy,Liguria,"34,186",4/21/20
+Italy,Lombardy,"277,197",4/21/20
+Italy,Marche,"44,332",4/21/20
+Italy,Molise,"4,124",4/21/20
+Italy,Piedmont,"105,434",4/21/20
+Italy,Sardinia,"15,886",4/21/20
+Italy,Sicilia,"55,093",4/21/20
+Italy,South Tyrol,"31,987",4/21/20
+Italy,Trentino,"26,610",4/21/20
+Italy,Tuscany,"109,925",4/21/20
+Italy,Umbria,"26,639",4/21/20
+Italy,Veneto,"268,069",4/21/20
+Japan,Tokyo,"9,124",4/22/20
+Russia,Moscow,"580,000",4/22/20
+Russia,Moscow Oblast,"109,834",4/21/20
+Russia,Saint Petersburg,"135,393",4/22/20
+United Kingdom,Scotland,"43,309",4/22/20
+US,California,"308,700",4/22/20
+US,Florida,"290,476",4/22/20
+US,Illinois,"164,346",4/22/20
+US,Louisiana,"141,504",4/19/20
+US,Massachusetts,"180,462",4/22/20
+US,Michigan,"123,817",4/22/20
+US,New Jersey,"191,659",4/22/20
+US,New York,"669,982",4/22/20
+US,Texas,"216,783",4/22/20
+US,Washington,"145,031",4/21/20
+Albania,,"6,768",4/24/20
+Argentina,,"36,611",4/20/20
+Armenia,,"12,680",4/19/20
+Australia,,"482,420",4/24/20
+Austria,,"212,686",4/24/20
+Azerbaijan,,"95,747",4/19/20
+Bahrain,,"82,568",4/18/20
+Bangladesh,,"36,090",4/23/20
+Barbados,,965,4/17/20
+Belarus,,"122,543",4/23/20
+Belgium,,"161,896",4/20/20
+Bolivia,,"3,900",4/18/20
+Bosnia and Herzegovina,,"22,768",4/24/20
+Brazil,,"524,536",4/20/20
+Bulgaria,,"26,417",4/18/20
+Canada,,"643,398",4/24/20
+Chile,,"108,891",4/18/20
+Colombia,,"71,500",4/19/20
+Costa Rica,,"10,417",4/19/20
+Croatia,,"24,186",4/19/20
+Czechia,,"203,622",4/23/20
+Denmark,,"132,967",4/24/20
+Ecuador,,"34,420",4/23/20
+Egypt,,"55,000",4/17/20
+Estonia,,"46,281",4/24/20
+Finland,,"74,527",4/24/20
+France,,"457,287",4/19/20
+Germany,,"2,072,669",4/21/20
+Greece,,"53,290",4/18/20
+Grenada,,92,4/16/20
+Hungary,,"58,251",4/24/20
+Iceland,,"45,286",4/24/20
+India,,"541,789",4/24/20
+Indonesia,,"39,422",4/18/20
+Iran,,"365,723",4/21/20
+Ireland,,"111,584",4/20/20
+Israel,,"302,691",4/24/20
+Italy,,"1,579,909",4/23/20
+Jamaica,,"1,516",4/17/20
+Japan,,"141,600",4/24/20
+Kazakhstan,,"102,859",4/20/20
+Kosovo,,"5,627",4/23/20
+Kyrgyzstan,,"31,460",4/18/20
+Latvia,,"36,668",4/20/20
+Lithuania,,"90,992",4/24/20
+Luxembourg,,"37,782",4/24/20
+Malaysia,,"121,722",4/24/20
+Malta,,"24,042",4/19/20
+Mexico,,"36,594",4/12/20
+Montenegro,,"5,645",4/23/20
+Nepal,,"43,723",4/23/20
+Netherlands,,"165,012",4/20/20
+New Zealand,,"108,238",4/24/20
+Nigeria,,"7,153",4/23/20
+North Korea,,709,4/2/20
+North Macedonia,,"11,870",4/19/20
+Norway,,"152,095",4/22/20
+Pakistan,,"111,886",4/20/20
+West Bank and Gaza,,"16,992",4/11/20
+Panama,,"17,850",4/17/20
+Peru,,"198,349",4/24/20
+Philippines,,"76,956",4/23/20
+Poland,,"224,355",4/21/20
+Portugal,,"300,525",4/23/20
+Romania,,"113,336",4/23/20
+Russia,,"2,552,000",4/23/20
+Serbia,,"41,812",4/20/20
+Singapore,,"121,774",4/20/20
+Slovakia,,"61,261",4/23/20
+Slovenia,,"42,976",4/20/20
+South Africa,,"108,021",4/18/20
+"Korea, South",,"583,971",4/23/20
+Spain,,"930,230",4/13/20
+Sweden,,"94,500",4/21/20
+Switzerland,,"230,946",4/22/20
+Taiwan,,"59,840",4/25/20
+Thailand,,"35,500",4/15/20
+Trinidad and Tobago,,"1,298",4/17/20
+Turkey,,"830,257",4/24/20
+Ukraine,,"72,296",4/23/20
+United Arab Emirates,,"898,000",4/23/20
+United Kingdom,,"612,031",4/24/20
+US,,"4,664,580",4/23/20
+Uruguay,,"12,478",4/18/20
+Venezuela,,"1,779",3/31/20
+Vietnam,,"189,253",4/24/20
+Australia,Australian Capital Territory,"7,440",4/24/20
+Australia,New South Wales,"188,416",4/24/20
+Australia,Northern Territory,"4,120",4/24/20
+Australia,Queensland,"94,977",4/24/20
+Australia,South Australia,"50,396",4/24/20
+Australia,Tasmania,"7,883",4/24/20
+Australia,Victoria,"96,000",4/24/20
+Australia,Western Australia,"33,188",4/24/20
+Canada,Alberta,"117,835",4/23/20
+Canada,British Columbia,"68,553",4/23/20
+Canada,Manitoba,"22,172",4/24/20
+Canada,New Brunswick,"12,014",4/23/20
+Canada,Newfoundland and Labrador,"6,902",4/23/20
+Canada,Northwest Territories,"1,605",4/23/20
+Canada,Nova Scotia,"24,558",4/23/20
+Canada,Nunavut,250,4/22/20
+Canada,Ontario,"207,040",4/24/20
+Canada,Prince Edward Island,"2,516",4/23/20
+Canada,Quebec,"185,632",4/23/20
+Canada,Saskatchewan,"25,872",4/23/20
+Canada,Yukon,873,4/23/20
+China,Guangdong,"3,650,000",4/14/20
+China,"Wuhan, Hubei","1,557,043",4/22/20
+China,Hong Kong,"145,640",4/21/20
+India,Delhi,"24,387",4/19/20
+India,Karnataka,"23,460",4/20/20
+India,Kerala,"21,941",4/24/20
+India,Odisha,"11,748",4/21/20
+India,Rajasthan,"61,492",4/21/20
+India,Tamil Nadu,"65,977",4/23/20
+Italy,Abruzzo,"29,906",4/21/20
+Italy,Aosta Valley,"4,911",4/21/20
+Italy,Apulia,"45,984",4/21/20
+Italy,Basilicata,"7,470",4/21/20
+Italy,Calabria,"25,440",4/21/20
+Italy,Campania,"53,548",4/21/20
+Italy,Emilia-Romagna,"134,878",4/21/20
+Italy,Friuli-Venezia Giulia,"48,500",4/21/20
+Italy,Lazio,"100,031",4/21/20
+Italy,Liguria,"34,186",4/21/20
+Italy,Lombardy,"277,197",4/21/20
+Italy,Marche,"44,332",4/21/20
+Italy,Molise,"4,124",4/21/20
+Italy,Piedmont,"105,434",4/21/20
+Italy,Sardinia,"15,886",4/21/20
+Italy,Sicilia,"55,093",4/21/20
+Italy,South Tyrol,"31,987",4/21/20
+Italy,Trentino,"26,610",4/21/20
+Italy,Tuscany,"109,925",4/21/20
+Italy,Umbria,"26,639",4/21/20
+Italy,Veneto,"268,069",4/21/20
+Japan,Tokyo,"9,361",4/23/20
+Russia,Moscow,"580,000",4/22/20
+Russia,Moscow Oblast,"124,954",4/23/20
+Russia,Saint Petersburg,"135,393",4/22/20
+United Kingdom,Scotland,"44,799",4/23/20
+US,California,"482,097",4/23/20
+US,Florida,"318,827",4/24/20
+US,Illinois,"173,316",4/23/20
+US,Louisiana,"141,504",4/19/20
+US,Massachusetts,"195,076",4/23/20
+US,Michigan,"132,175",4/23/20
+US,New Jersey,"200,148",4/23/20
+US,New York,"730,656",4/24/20
+US,Texas,"242,547",4/24/20
+US,Washington,"153,376",4/23/20
