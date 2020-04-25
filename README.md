@@ -1,7 +1,7 @@
 # Models for projecting future Covid cases
 Run the following 2 scripts to get model projections:
 
-- 1-organize data.R which combines various external datasets with Johns Hopkins data, such as demographic datasets from ourworldindata.org, World Bank, Covid testing data, and more. In addition, the scripts calculates various lagged-stats and other features.
+- 1-organize data.R which combines various external datasets with the Johns Hopkins data, such as demographic datasets from ourworldindata.org, World Bank, Covid testing data, and more. In addition, the script calculates various lagged-stats and other features.
 
 - 2-model fitting.R which trains various models to project future cases, fatalities, and recoveries
 - These models are:
