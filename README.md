@@ -1,9 +1,9 @@
 # Models for projecting future Covid cases
-Run following 2 scripts to get model projections:
+Run the following 2 scripts to get model projections:
 
--1-organize data.R combines various external datasets with Johns Hopkins data, in addition to calculating various stats and lagged stats. External data includes demographic datasets from ourworldindata.org, World Bank, Covid testing data, and more.
+- 1-organize data.R which combines various external datasets with Johns Hopkins data, such as demographic datasets from ourworldindata.org, World Bank, Covid testing data, and more. In addition, the scripts calculates various lagged-stats and other features.
 
--2-model fitting.R trains various models to project future cases, fatalities, and recoveries
+- 2-model fitting.R which trains various models to project future cases, fatalities, and recoveries
 -These models are:
 	1. GBM model to project days 1, 2, 3 etc in future using various lagged stats and demographic variables
 	2. Linear model to project days 1, 2, 3 etc in future using various lagged stats and demographic variables
